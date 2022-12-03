@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+:root {
+    /* Background Color */
+    --primary-color: #4458dc;
+    --secondary-color: #854fee;
+    --bg-white: #fff;
+    --bg-light: #faf8ff;
+    --bg-black: #000;
+    --bg-gray: #eee;
+    --gradient: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+
+    /* Text Color */
+    --primary-text: #4458dc;
+    --secondary-text: #854fee;
+    --text-white: #fff;
+    --text-black: #000;
+    --text-gray: #777;
+
+    /* Font Family */
+    --primary-font: 'Rubik', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+  /* adding <span id="IL_AD7" class="IL_AD">background image</span> */
+  body{
+    <span id="IL_AD12" class="IL_AD">font-family</span>: Arial, Helvetica, sans-serif;
+    background: #464646;
+  }
+  /* Center content vertically and horizontally */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form{
+    width: 350px;
+    height: 460px;
+    background-color: #EAF6F6;
+    box-shadow: 0 5px 30px black;
+  }
+  .heading h2{
+    padding: 3px;
+    margin: 30px 0px 10px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .formGroup{
+    display: flex;
+    justify-content: center;
+  }
+  .formGroup input{
+    border: none;
+    width: 80%;
+    padding: 7px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(68, 68, 68);
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+  }
+   
+  input:focus{
+    outline: none;
+    font-size: 17px;
+    background-color: transparent;
+  }
+  .text{
+    color: rgb(42, 41, 41);
+    font-size: 13px;
+  }
+  .btn2{
+    padding: 10px;
+    outline: none;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(28, 131, 28);
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .btn2:hover {
+   background-color: rgb(1, 63, 1);
+  }
+  .status {
+   color: green;
+   text-align: center;
+   margin: 5px;
+   font-weight: 600;
+  }
+
+  .main-btn {
+    display: inline-block;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.875rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.625rem 1.875rem rgb(118 85 225 / 30%);
+    border: double 0.125rem transparent;
+    padding: 0 2.0625rem;
+    transition: all .3s ease-in-out;
+    --webkit-transition: all .3s ease-in-out;
+}
+.primary-btn {
+    background-image: var(--gradient);
+    color: var(--text-white);
+}
+
+.primary-btn:hover {
+    border-color: var(--secondary-color);
+    background: var(--bg-white);
+    color: var(--secondary-text);
+    box-shadow: none;
+}
