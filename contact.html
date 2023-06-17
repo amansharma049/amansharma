@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style1.css">
-     <script src="https://www.google.com/recaptcha/api.js"></script>
+     
     <style type="text/css">
     
    </style>
@@ -34,36 +34,15 @@
          <div class="formGroup">
           <input type="text" name="message" placeholder="Your Message" required>
          </div>
-          <div class="formGroup">
-          <div class="formGroup">
-          <button class="g-recaptcha" 
-        data-sitekey="6LcGRaYmAAAAABdehH-0WLWwSTbev07A3uLCTlAp" 
-        data-callback='onSubmit' 
-        data-action='submit'>Submit</button>
-         </div>
-         </div>                    
+                             
          <div class="formGroup">
           <button class="main-btn primary-btn" value="SUBMIT" type="submit" >SUBMIT </button>
          </div>
        
         </form >
     </div>
-     <script>
-   function onSubmit(token) {
-     document.getElementById("demo-form").submit();
-   }
- </script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LcGRaYmAAAAABdehH-0WLWwSTbev07A3uLCTlAp"></script>
-       <script>
-      function onClick(e) {
-        e.preventDefault();
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LcGRaYmAAAAABdehH-0WLWwSTbev07A3uLCTlAp', {action: 'submit'}).then(function(token) {
-              // Add your logic to submit to your backend server here.
-          });
-        });
-      }
-  </script>
+     
+     
     
 </body>
 </html>
